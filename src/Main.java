@@ -24,7 +24,6 @@ public class Main {
     public static class LazyStudent extends Student{
         @Override
         public void study(){
-            super.study();
             System.out.println("Сегодня не учусь, мне лень.");
         }
     }
